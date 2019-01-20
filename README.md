@@ -18,15 +18,13 @@ Guess [1diary](http://1diary.me) api.
 | w | String | 加密后的密码 |
 | type | Number | 账号类型（ 1 为永久版） |
 
-Example:
+Example
 
 ```url
 http://api.1diary.me/login?a=me@yunyoujun.cn&w=xxx&type=1
 ```
 
-**Response**
-
-type: json
+**Response**  `Type: json`
 
 | Argument | Type | Description |
 | - | - | - |
@@ -71,9 +69,7 @@ Example:
 | type | Number | 账号类型（ 1 为永久版） |
 | token | String | 令牌 |
 
-**Response**
-
-Example
+**Response**    `Type: json`
 
 | Argument | Type | Description |
 | - | - | - |
@@ -130,6 +126,8 @@ json
 | uuid | String | - | 通用唯一识别码 |
 | weather | String | - | 天气 |
 | year | Number | - | 年份 |
+
+Example
 
 ```json
 {
