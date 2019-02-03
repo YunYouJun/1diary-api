@@ -16,7 +16,7 @@ Guess [1diary](http://1diary.me) api.
 | - | - | - |
 | a | String | 账号（手机/邮箱） |
 | w | String | 加密后的密码 |
-| type | Number | 账号类型（ 1 为永久版） |
+| type | Number | 账号类型(1:日记云, 2:坚果云, 3:box) |
 
 Example
 
