@@ -29,30 +29,18 @@ http://api.1diary.me/login?a=me@yunyoujun.cn&w=xxx&type=1
 | Argument | Type | Description |
 | - | - | - |
 | code | Number | 状态码 |
+| id | String | 用户 ID |
 | msg | String | 消息 |
 | token | String | 令牌 |
-| user | Object | 用户信息 |
-
-user
-
-| Argument | Type | Description |
-| - | - | - |
-| token | String | 令牌 |
-| createAt | Datetime | 注册时间 |
-| nickName | String | 昵称 |
 
 Example:
 
 ```json
 {
     "code": 200,
-    "msg": "succes", // 我测试拿到的就少一个字母 s，orz（应该是官方拼写的失误，下一条就是正常 success 了）
-    "token": "123456789a",
-    "user": {
-        "token": "123456789a",
-        "createAt": "2019-01-17 22:58:15", // 这里没 d，下面则变成了 createdAt
-        "nickName": "云游君"
-    }
+    "id": "123456789a",
+    "msg": "login success",
+    "token": "exampletokenstring"
 }
 ```
 
